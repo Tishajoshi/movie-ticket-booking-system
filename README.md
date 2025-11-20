@@ -73,9 +73,7 @@ htdocs/  (for XAMPP)
 Start Apache & MySQL
 
 Open the application:
-http://localhost/movie-ticket-booking-system/index.php
 🧠 How It Works (Flow)
-
 User visits schedule page
 Selects movie + show time
 Proceeds to seat booking
