@@ -35,71 +35,53 @@ movie-ticket-booking-system/
 ├── fail.html
 ├── verify.php
 ├── Verify.png
-└── Movie Ticket Booking System Project Report.docx
-
-yaml
-Copy code
 
 ---
 
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/Tishajoshi/movie-ticket-booking-system.git
 cd movie-ticket-booking-system
-2️⃣ Set Up the Database
+
+### 2️⃣ Set Up the Database
+
 Create a MySQL database, for example:
 movie_booking
 
 Create tables for:
-
 Users
-
 Shows
-
 Bookings
-
 Transactions
-
 (Your table structure may be found in connection.php or the project report.)
 
 Update credentials inside connection.php:
 
-php
-Copy code
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "movie_booking";
-3️⃣ Run on Localhost
-Use XAMPP / WAMP / MAMP:
 
+### 3️⃣ Run on Localhost
+
+Use XAMPP / WAMP / MAMP:
 Copy the project folder to:
 
-rust
-Copy code
 htdocs/  (for XAMPP)
 Start Apache & MySQL
 
 Open the application:
-
-perl
-Copy code
 http://localhost/movie-ticket-booking-system/index.php
 🧠 How It Works (Flow)
+
 User visits schedule page
-
 Selects movie + show time
-
 Proceeds to seat booking
-
 Redirects to payment gateway (real or test)
-
 Payment response received
-
 Receipt generated
-
 On failure → redirected to fail.html
 
 🗄️ Database Schema (Suggested)
@@ -136,27 +118,14 @@ status	VARCHAR
 response_code	VARCHAR
 response_msg	VARCHAR
 
-📄 Project Report
-A detailed documentation Movie Ticket Booking System Project Report.docx is included, containing:
-
-System analysis
-
-Data flow diagrams
-
-Screenshots
-
-Testing
-
-Future scope
-
-🤝 Contributing
+### 🤝 Contributing
 Pull requests are welcome!
 If you want to add improvements, open an issue first to discuss suggested changes.
 
-📜 License
+### 📜 License
 This project is created for learning and academic purposes.
 Feel free to modify or extend it.
 
-⭐ Acknowledgment
+### ⭐ Acknowledgment
 Thanks for checking out this project!
 If you like it, consider giving the repo a star ⭐ on GitHub.
